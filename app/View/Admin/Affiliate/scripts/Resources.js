@@ -31,7 +31,8 @@ var App;
                 types: [
                     { label: 'FAQ', value: 'faq' }, { label: 'Banners', value: 'banners' }, { label: 'Emails', value: 'emails' }, { label: 'Bonuses', value: 'bonuses' },
                     { label: 'PPC Ads', value: 'ppc' }, { label: 'Tweets', value: 'tweets' }, { label: 'Signatures', value: 'signatures' }, { label: 'Links', value: 'links' },
-                    { label: 'Resources', value: 'resources' }]
+                    { label: 'Resources', value: 'resources' }
+                ]
             };
         }
         return ResourceListController;
