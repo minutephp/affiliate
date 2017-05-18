@@ -1,4 +1,4 @@
-<div ng-controller="summaryController" id="summaryContainer" style="display: none">
+<div ng-controller="summaryController" id="summaryContainer" style="display: none" ng-if="!!data.affiliate">
     <minute-event name="IMPORT_AFFILIATE_DATA" as="data.affiliate"></minute-event>
 
     <div class="box box-info" id="infoBox">
